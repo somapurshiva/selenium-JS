@@ -1,5 +1,5 @@
 require("chromedriver");
-const { Builder, By, Key, until } = require("selenium-webdriver");
+const { Builder } = require("selenium-webdriver");
 const SeleniumUtils = require('./util');
 
 (async function example() {
