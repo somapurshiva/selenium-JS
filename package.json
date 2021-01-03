@@ -1,0 +1,19 @@
+{
+  "name": "selenium-init",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "start": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "chromedriver": "^87.0.4",
+    "selenium-webdriver": "^4.0.0-alpha.8"
+  },
+  "devDependencies": {
+    "@types/selenium-webdriver": "^4.0.10"
+  }
+}
