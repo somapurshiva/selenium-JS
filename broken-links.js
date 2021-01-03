@@ -33,6 +33,6 @@ const SeleniumUtils = require('./util');
     } catch (err) {
         console.error('Encountered error:: ', err);
     } finally {
-        // $browser.quit();
+        $browser.quit();
     }
 })();

@@ -61,6 +61,6 @@ const assert = require("assert");
     );
     console.log('All Menu Items:::: ', allMenuItems);
   } finally {
-    // await $browser.quit();
+    await $browser.quit();
   }
 })();

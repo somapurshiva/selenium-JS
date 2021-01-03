@@ -31,6 +31,6 @@ const SeleniumUtils = require('./util');
 
         await alert.dismiss();
     } finally {
-        // $browser.quit();
+        $browser.quit();
     }
 })();

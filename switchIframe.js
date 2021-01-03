@@ -18,6 +18,6 @@ const SeleniumUtils = require('./util');
                     .then(disp => console.log('Anchor tag is displayed ? ', disp));
             });
     } finally {
-        // $browser.quit();
+        $browser.quit();
     }
 })();

@@ -11,6 +11,6 @@ const SeleniumUtils = require('./util');
 
         selUtils.selectBootstrapDropDownOptionByText('.//*[@id="menu1"]', 'JavaScript');
     } finally {
-        // $browser.quit();
+        $browser.quit();
     }
 })();

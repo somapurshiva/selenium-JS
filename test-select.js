@@ -20,6 +20,6 @@ const SeleniumUtils = require('./util');
 
         selUtils.setSelectOptionByVisibleText('//*[@id="select"]', 'Six');
     } finally {
-        // $browser.quit();
+        $browser.quit();
     }
 })();

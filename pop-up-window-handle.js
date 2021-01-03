@@ -33,6 +33,6 @@ const SeleniumUtils = require("./util");
 
     await selUtils.switchToWindow(parentWindow);
   } finally {
-    // $browser.quit();
+    $browser.quit();
   }
 })();

@@ -1,5 +1,5 @@
 require("chromedriver");
-const { Builder, By, Key, until } = require("selenium-webdriver");
+const { Builder, By } = require("selenium-webdriver");
 const SeleniumUtils = require('./util');
 
 
@@ -33,6 +33,6 @@ const SeleniumUtils = require('./util');
 
       await selUtils.clickWebElement('//*[@id="dashboard-toolbar"]/div[2]/div/button[1]');
     } finally {
-    //   await $browser.quit();
+      await $browser.quit();
     }
 })();

@@ -13,6 +13,6 @@ const SeleniumUtils = require('./util');
 
         browseEle.sendKeys('/Users/ssomapur/Desktop/Holiday\ Calendar.png');
     } finally {
-        // $browser.quit();
+        $browser.quit();
     }
 })();
