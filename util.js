@@ -35,6 +35,13 @@ class SeleniumUtils {
     );
   };
 
+  waitForElementToLoadById = function (id) {
+    return this.$browser.wait(
+      until.elementLocated(By.id(id)),
+      WAIT_TIME_IN_MS
+    );
+  };
+
   waitForElementToLoadByName = function (name) {
     return this.$browser.wait(
       until.elementLocated(By.name(name)),
